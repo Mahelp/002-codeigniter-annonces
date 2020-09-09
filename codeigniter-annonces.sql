@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : mer. 09 sep. 2020 à 21:23
+-- Généré le : mer. 09 sep. 2020 à 21:47
 -- Version du serveur :  5.7.31
 -- Version de PHP : 7.3.21
 
@@ -95,6 +95,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `password` int(255) NOT NULL,
   `city` varchar(255) NOT NULL,
   `Tel` int(20) NOT NULL,
+  `is_Admin` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
@@ -102,10 +103,10 @@ CREATE TABLE IF NOT EXISTS `users` (
 -- Déchargement des données de la table `users`
 --
 
-INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `password`, `city`, `Tel`) VALUES
-(4, 'ali', 'mrabete', 'mrabet@gmail.com', 6, 'casablanca', 663215200),
-(3, 'salim', 'toto', 'toto@gmail.com', 6, 'casablanca', 663215252),
-(5, 'sss', 'massimo', 'massimo@gmail.com', 6, 'casablanca', 663217744);
+INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `password`, `city`, `Tel`, `is_Admin`) VALUES
+(4, 'ali', 'mrabete', 'mrabet@gmail.com', 6, 'casablanca', 663215200, 0),
+(3, 'salim', 'toto', 'toto@gmail.com', 6, 'casablanca', 663215252, 0),
+(5, 'sss', 'massimo', 'massimo@gmail.com', 6, 'casablanca', 663217744, 1);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
