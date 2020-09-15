@@ -64,7 +64,7 @@
                         </div>
                         <div class="media-footer" align="right">
                             <span class="label label-success"><i class="fa fa-tag"></i><?php echo $annonce->category;?></span>
-                            <span class="label label-default"><i class="fa fa-user"></i> Belasri imad</span>
+                            <span class="label label-default"><i class="fa fa-user"></i> Marochelp</span>
                             <span class="label label-warning"><i class="fa fa-calendar"></i> <?php echo $annonce->created;?></span>
                         </div>
                     </div>
