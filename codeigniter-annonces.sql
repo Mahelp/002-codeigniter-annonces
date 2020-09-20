@@ -86,8 +86,8 @@ CREATE TABLE IF NOT EXISTS `messages` (
 -- Structure de la table `users`
 --
 
-DROP TABLE IF EXISTS `users`;
-CREATE TABLE IF NOT EXISTS `users` (
+DROP TABLE IF EXISTS `marochelp_users`;
+CREATE TABLE IF NOT EXISTS `marochelp_users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `firstname` varchar(255) NOT NULL,
   `lastname` varchar(255) NOT NULL,

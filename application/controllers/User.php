@@ -13,7 +13,7 @@ class User extends CI_Controller {
 		} 
 		$this->form_validation->set_rules('nom','Nom','required|trim|min_length[3]');
 		$this->form_validation->set_rules('prenom','Prénom','required|trim|min_length[3]');
-		$this->form_validation->set_rules('email','Email','required|trim|valid_email|is_unique[users.email]');
+		$this->form_validation->set_rules('email','Email','required|trim|valid_email|is_unique[marochelp_users.email]');
 		$this->form_validation->set_rules('password','Mot de passe','required|trim|min_length[3]');
 		if($this->form_validation->run() == FALSE){
 			$data = array(
