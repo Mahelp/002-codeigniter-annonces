@@ -40,12 +40,15 @@
                                 <div class="row">
                                     <div class="col-sm-4 col-sm-offset-1 col-xs-8">
                                         <p class="text-center">
-                                            <img src="<?php echo base_url()."assets/uploads/".$this->session->userdata("photo");?>" class="profileImg" height="100" width="100">
-                                        </p>
+                                         <img src="./assets/uploads/user.png" class="profileImg" height="100" width="100">
+                                      
+								  
+								  </p>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-sm-8 col-sm-offset-1  col-xs-4">
+                                    
+								  <div class="col-sm-8 col-sm-offset-1  col-xs-4">
                                         <p class="text-center">
                                             <?php echo $this->session->userdata("nom")." ".$this->session->userdata("prenom");?>
                                         </p>
@@ -74,8 +77,10 @@
                 <li><a itemprop="url" href="<?php echo base_url();?>user/login"  title="Connexion"><i class="fa fa-lock">&nbsp;Connexion</i></a></li>
             <?php endif;?>
             <li><a href="<?php echo base_url();?>ads/add"><i class="fa fa-pencil"> Déposer une annonce</i></a></li>
-            <li><a href="#"><i class="fa fa-envelope"></i> Contact</a></li>
-            <?php if($this->session->userdata('admin')):?>
+            <!--
+			<li><a href="#"><i class="fa fa-envelope"></i> Contact</a></li>
+            -->
+			<?php if($this->session->userdata('admin')):?>
                 <li><a href="<?php echo base_url();?>admin"><i class="fa fa-dashboard"></i> Admin</a></li>
             <?php endif;?>
         </ul>

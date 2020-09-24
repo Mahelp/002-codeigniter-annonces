@@ -12,9 +12,9 @@
                         <option value="Informatique & Téchnologie">Informatique</option>
                         <option value="Immobilier">Immobilier</option>
                         <option value="Emplois">Emplois</option>
-                        <option value="Animaux">Animaux</option>
+                        <option value="Services">Services</option>
                         <option value="Vente Divers">Vente Divers</option>
-                        <option value="Véhicules">Véhicules</option>
+                        <option value="Mariages">Mariages</option>
                     </select>
                 </div>
                 <div class="col-md-4">

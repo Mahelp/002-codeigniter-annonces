@@ -25,9 +25,9 @@ function tokenTruncate($string, $your_desired_width) {
                         <option value="Informatique & Téchnologie">Informatique</option>
                         <option value="Immobilier">Immobilier</option>
                         <option value="Emplois">Emplois</option>
-                        <option value="Animaux">Animaux</option>
+                        <option value="Services">SERVICE</option>
                         <option value="Vente Divers">Vente Divers</option>
-                        <option value="Véhicules">Véhicules</option>
+                        <option value="Mariages">Mariages</option>
                     </select>
                 </div>
                 <div class="col-md-4">
@@ -89,17 +89,17 @@ function tokenTruncate($string, $your_desired_width) {
                     </div>
                     <div class="col-sm-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="<?php echo base_url();?>assets/uploads/animaux.jpg" alt="...">
+                            <img src="<?php echo base_url();?>assets/uploads/services.png" alt="...">
                             <div class="caption" align="center">
-                                <p><a href="<?php echo base_url();?>ads/category/Animaux" class="btn btn-link" role="button">Animaux</a></p>
+                                <p><a href="<?php echo base_url();?>ads/category/Services" class="btn btn-link" role="button">Services</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="<?php echo base_url();?>assets/uploads/vehicules.jpg" alt="...">
+                            <img src="<?php echo base_url();?>assets/uploads/mariage.png" alt="...">
                             <div class="caption" align="center">
-                                <p><a href="<?php echo base_url();?>ads/category/Véhicules" class="btn btn-link" role="button">Véhicules</a></p>
+                                <p><a href="<?php echo base_url();?>ads/category/Mariages" class="btn btn-link" role="button">Mariages</a></p>
                             </div>
                         </div>
                     </div>
